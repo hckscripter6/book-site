@@ -1,0 +1,200 @@
+
+
+body {
+	margin: 0;
+	background-color: #dad9dd;
+	font-family: arial;
+	background-image: url('back.jpg');
+	/*background: url('blue_container.jpeg');*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+div.header-cont {
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+header {
+	background-color: #505dc1;
+	border-bottom: 2.5px solid black;
+	
+	
+}
+
+header img {
+		height: 50px;
+		width: 50px;
+		
+		position: relative;
+		left: .75em;
+		top: .4em;
+}
+
+header h1 {
+	margin: 0;
+	display: inline-block;
+	position: relative;
+	left: .75em;
+	top: 0em;
+	padding: .25em;
+	font-size: 2.5em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+	text-align: right;
+	display: inline-block;
+	position: absolute;
+	top: .1em;
+	right: 25em;
+	padding-right: 1em;
+}
+
+form {
+	position: absolute;
+	top: .85em;
+	border: 2.5px solid black;
+	padding: .5em;
+	right: 2em;
+	background-color: cornflowerblue;
+}
+
+form input[type=text] {
+	width: 15em;
+}
+
+form input {
+	border-radius: .5em;
+	border: 1px solid black;
+	height: 2em;
+}
+
+nav ul li {
+	display: inline-block;
+	font-size: 1.3em;
+	border: 2.5px solid black;
+	border-radius: .5em;
+	text-align: center;
+	padding: .25em;
+	background-color: cornflowerblue;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+div.jumbotron {
+	text-align: center;
+	padding: 3em;
+	border-bottom: 2.5px solid black;
+	background: url('blue_jumbo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 1.75em;
+	font-family: 'Lobster', cursive;
+}
+
+div.container {
+	width: 1150px;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	
+	background-color: #5673b2;
+	margin-top: 4.5em;
+	border-left: 2.5px solid black;
+	border-right: 2.5px solid black;
+	
+	
+}
+
+div.sign {
+	background-color: blue;
+	padding: .075em .25em;
+	position: absolute;
+	right: 21em;
+	top: .5em;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	border: 2.5px solid black;
+	background-color: cornflowerblue;
+	border-radius: .5em;
+}
+
+div.sign p {
+	margin: 0;
+	font-size: 1.25em;
+}
+
+div.sign p a {
+	text-decoration: none;
+	color: black;
+}
+
+div.sign p a:hover {
+	color: navy;
+	text-decoration: underline;
+}
+
+div.sign p:first-of-type {
+	border-bottom: 1px solid black;
+	padding-bottom: .1em;
+}
+
+div.sign p:last-of-type {
+	margin-top: -.1em;
+	
+}
+
+section.content,
+section.sidebar {
+/*	border: 1px solid black;*/
+}
+
+div.toggle {
+	position: absolute;
+	top: 2.5px;
+	right: 25px;
+	visibility: hidden;
+	
+}
+
+div.toggle img {
+	border-radius: 5px;
+	border: 1.5px solid black;
+	background-color: cornflowerblue;
+}
+
+div.book img {
+	height: 20em;
+	width: 15em;
+	display: block;
+	margin: 1em auto 0 auto;
+	border: 2.5px solid black;
+}
+
+div.book p {
+	text-align: center;
+	margin: .25em;
+	font-size: 1.25em;
+}
+
+
+
+footer {
+	position: relative;
+	bottom: 0;
+	left:0;
+	right: 0;
+	width: 100%;
+	background-color: #505dc1;
+	padding: .5em;
+	border-top: 2.5px solid black;
+}
+
+footer p {
+	margin: 0;
+	text-align: center;
+}
+
